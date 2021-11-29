@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-style: 'Roboto';
+}
+
+.header {
+  width: 100%;
+  position: fixed;
+  padding: 30px 0;
+  background-color: #526E3E;
+}
+
+.header .navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header .navbar__nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 30px;
+          column-gap: 30px;
+}
+
+.header .navbar .nav__item {
+  list-style: none;
+}
+
+.header .navbar .nav__link {
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 32px;
+  letter-spacing: 0.21px;
+  text-transform: capitalize;
+  color: #FFFFFF;
+}
+
+.home {
+  background: url(../images/home/home-bg.png) center/cover no-repeat;
+  height: 100vh;
+  padding-top: 400px;
+}
+
+.home__title {
+  font-weight: bold;
+  font-size: 57px;
+  line-height: 62px;
+  text-align: center;
+  color: #FFFFFF;
+  padding-top: 180px;
+}
+
+.home__logo {
+  padding-left: 825px;
+}
+
+.shop {
+  padding-top: 98px;
+}
+
+.shop__title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 36px;
+  text-align: center;
+  color: #526E3E;
+  padding-bottom: 45px;
+}
+/*# sourceMappingURL=style.css.map */

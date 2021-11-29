@@ -1,0 +1,67 @@
+.home {
+    background: url(../images/home/home-bg.png)center / cover no-repeat;
+    height: 100vh;
+    padding-top: 400px;
+
+    &__title {
+        font-weight: bold;
+        font-size: 57px;
+        line-height: 62px;
+        text-align: center;
+        color: #FFFFFF;
+        padding-top: 180px;
+
+    }
+
+    &__logo {
+        padding-left: 825px;
+    }
+}
+
+.shop {
+    padding-top: 98px;
+    &__title {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 28px;
+        line-height: 36px;
+        text-align: center;
+        color: #526E3E;
+       padding-bottom: 45px;
+    }
+
+    &__blue {
+
+    }
+
+    &__pink{
+
+    }
+
+    &__duo{
+
+    }
+
+    &__solo{
+
+    }
+
+    &__blue-price{
+
+    }
+
+    &__pink-price{
+
+    }
+
+    &__duo-price{
+        
+    }
+
+    &__solo-price{
+        
+    }
+
+
+
+}
